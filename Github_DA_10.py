@@ -17,7 +17,7 @@ print("*****")
 
 class DA_10(unittest.TestCase):
     headers = {'User-Agent': 'mobile'}
-    url2 = 'https://brickset.com/sets/year-2007'
+    url2 = 'http://httpbin.org/headers'
     rh = requests.get(url2, headers=headers)
     print(rh.text)
 
