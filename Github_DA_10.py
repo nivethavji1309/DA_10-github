@@ -16,13 +16,13 @@ print("*****")
 
 
 class DA_10(unittest.TestCase):
-    headers = {'User-Agent': 'Android 5.0'}
+    headers = {'User-Agent': 'mobile'}
     url2 = 'https://brickset.com/sets/year-2007'
     rh = requests.get(url2, headers=headers)
     print(rh.text)
 
     def test_headers(self):
-        self.assertTrue(DA_10.headers, 'Android 5.0')
+        self.assertTrue(DA_10.headers, 'mobile')
 
 if __name__ == '__main__':
     unittest.main()
