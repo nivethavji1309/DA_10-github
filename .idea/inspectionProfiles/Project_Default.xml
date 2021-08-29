@@ -1,0 +1,18 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="set.intersaction" />
+          <option value="main.friend" />
+          <option value="main.totalStudentHeight" />
+          <option value="main.totalStudentCount" />
+          <option value="main.calAvgHeight" />
+          <option value="main.taller" />
+          <option value="main.than" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
